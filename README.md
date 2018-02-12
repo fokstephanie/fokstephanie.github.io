@@ -1,2 +1,2 @@
 # fokstephanie.github.io
-person website
+personal website
