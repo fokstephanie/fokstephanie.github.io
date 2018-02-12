@@ -2,10 +2,9 @@
 
 body {
   margin: 0;
-  font:normal 75% Arial, Helvetica, sans-serif;
 
 
-
+/*
 background: rgba(0,61,69,1);
 background: -moz-linear-gradient(top, rgba(0,61,69,1) 0%, rgba(0,87,97,1) 55%, rgba(0,120,133,1) 74%, rgba(0,147,163,1) 89%, rgba(0,167,189,1) 95%, rgba(0,179,199,1) 100%);
 background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(0,61,69,1)), color-stop(55%, rgba(0,87,97,1)), color-stop(74%, rgba(0,120,133,1)), color-stop(89%, rgba(0,147,163,1)), color-stop(95%, rgba(0,167,189,1)), color-stop(100%, rgba(0,179,199,1)));
@@ -14,7 +13,7 @@ background: -o-linear-gradient(top, rgba(0,61,69,1) 0%, rgba(0,87,97,1) 55%, rgb
 background: -ms-linear-gradient(top, rgba(0,61,69,1) 0%, rgba(0,87,97,1) 55%, rgba(0,120,133,1) 74%, rgba(0,147,163,1) 89%, rgba(0,167,189,1) 95%, rgba(0,179,199,1) 100%);
 background: linear-gradient(to bottom, rgba(0,61,69,1) 0%, rgba(0,87,97,1) 55%, rgba(0,120,133,1) 74%, rgba(0,147,163,1) 89%, rgba(0,167,189,1) 95%, rgba(0,179,199,1) 100%);
 filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#003d45', endColorstr='#00b3c7', GradientType=0);
-
+*/
 
 
 }
@@ -31,15 +30,30 @@ canvas {
   background-color: #003D45;
   background-size: cover;
   background-position: 50% 50%;
+  /*z-index: -1;*/
+}
+
+#front-page {
+  vertical-align: middle;
+  margin: 0% 10% 15% 10%;
+  padding: 0% 10% 0% 10%;
+}
+
+#hello {
+  vertical-align: middle;
+  margin: 0% 10% 0% 10%;
+  padding: 10% 10% 10% 10%;
 }
 
 #hello-title {
   font-family: Athene, "Times New Roman", Times, serif;
   color: #FFE2AB;
+  font-size: 7vmax;
 }
 
 #hello-subtitle {
   font-family: Poppins, Arial, Helvetica, sans-serif;
   color: #FFFFFF;
-  opacity: 70%;
+  font-size: 1.8vmax;
+  opacity: 0.7;
 }
