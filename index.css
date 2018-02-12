@@ -9,6 +9,15 @@ a {
   text-decoration: line-through;;
 }
 
+#email-link, #github-link, #linkedin-link, #resume-link {
+  color: white;
+
+}
+
+#work-link, #hello-link {
+  cursor: pointer;
+}
+
 #particles-js1 {
   position: absolute;
   width: 100%;
