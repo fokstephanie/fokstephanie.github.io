@@ -1,0 +1,45 @@
+/* ---- reset ---- */
+
+body {
+  margin: 0;
+  font:normal 75% Arial, Helvetica, sans-serif;
+
+
+
+background: rgba(0,61,69,1);
+background: -moz-linear-gradient(top, rgba(0,61,69,1) 0%, rgba(0,87,97,1) 55%, rgba(0,120,133,1) 74%, rgba(0,147,163,1) 89%, rgba(0,167,189,1) 95%, rgba(0,179,199,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(0,61,69,1)), color-stop(55%, rgba(0,87,97,1)), color-stop(74%, rgba(0,120,133,1)), color-stop(89%, rgba(0,147,163,1)), color-stop(95%, rgba(0,167,189,1)), color-stop(100%, rgba(0,179,199,1)));
+background: -webkit-linear-gradient(top, rgba(0,61,69,1) 0%, rgba(0,87,97,1) 55%, rgba(0,120,133,1) 74%, rgba(0,147,163,1) 89%, rgba(0,167,189,1) 95%, rgba(0,179,199,1) 100%);
+background: -o-linear-gradient(top, rgba(0,61,69,1) 0%, rgba(0,87,97,1) 55%, rgba(0,120,133,1) 74%, rgba(0,147,163,1) 89%, rgba(0,167,189,1) 95%, rgba(0,179,199,1) 100%);
+background: -ms-linear-gradient(top, rgba(0,61,69,1) 0%, rgba(0,87,97,1) 55%, rgba(0,120,133,1) 74%, rgba(0,147,163,1) 89%, rgba(0,167,189,1) 95%, rgba(0,179,199,1) 100%);
+background: linear-gradient(to bottom, rgba(0,61,69,1) 0%, rgba(0,87,97,1) 55%, rgba(0,120,133,1) 74%, rgba(0,147,163,1) 89%, rgba(0,167,189,1) 95%, rgba(0,179,199,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#003d45', endColorstr='#00b3c7', GradientType=0);
+
+
+
+}
+
+canvas {
+  display: block;
+  vertical-align: bottom;
+}
+
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #003D45;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+#hello-title {
+  font-family: Athene, "Times New Roman", Times, serif;
+  color: #FFE2AB;
+}
+
+#hello-subtitle {
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+  color: #FFFFFF;
+  opacity: 70%;
+}
