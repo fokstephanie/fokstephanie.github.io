@@ -7,22 +7,7 @@
 	<link rel="icon" href="./images/logo.png">
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script>
-$(document).ready(function(){
-	$("#work-link").click(function() {
-		$('html, body').animate({
-				scrollTop: $("#work").offset().top
-		}, 1000);
-		return false;
-	});
-	$("#hello-link").click(function() {
-		$('html, body').animate({
-				scrollTop: $("#say-hello").offset().top
-		}, 1000);
-		return false;
-	});
-});
-</script>
+
 </head>
 <body id="particles-js1">
 		<div id="particles-js2"></div>
@@ -33,40 +18,60 @@ $(document).ready(function(){
 				<p id="hello-subtitle">A student / developer / designer / pun-lover.</p>
 				<br>
 				<a id="work-link"><p class="hello-links"><span class="strikethrough">My Work</span></p></a>
-				<a id="hello-link"><p class="hello-links"><span class="strikethrough">Say Hello</span></p></a>
+				<a id="contact-link"><p class="hello-links"><span class="strikethrough">Say Hello</span></p></a>
 			</div>
 		</div>
-		<div class="container" style="margin-bottom: 10%">
-			<h1 class="title" id="work">Work</h1>
-			<div class="row">
-				<div class="col-sm-3 box">
-					<div class="work-box">Watonomous</div>
-				</div>
-			    <div class="col-sm-3 box">
-					<div class="work-box">Quadris</div>
-				</div>
-			    <div class="col-sm-3 box">
-					<div class="work-box">Aspire</div>
-				</div>
-				<div class="col-sm-3 box">
-					<div class="work-box">WatWorldWeb</div>
+		<div class="container">
+			<div id="work">
+				<h1 class="title">Work</h1>
+				<div id="boxes">
+					<div class="row">
+						<div class="col-sm-6 box">
+							<div class="work-box" name="waton-desc">
+								<p class="box-title">Watonomous</p>
+								<p id="waton-desc" class="desc">Created 3D test track simulations for automated driving <br> // Unreal, C++ </p>
+							</div>
+						</div>
+					    <div class="col-sm-6 box">
+							<div class="work-box" name="quadris-desc"> 
+								<p class="box-title">Quadris</p>
+								<p id="quadris-desc" class="desc">Latinized version of classic game, Tetris <br> // C++ </p>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+					    <div class="col-sm-6 box">
+							<div class="work-box" name="aspire-desc">
+								<p class="box-title">Aspire</p>
+								<p id="aspire-desc" class="desc">2D platformer game <br> // GameMaker, C# </p>
+							</div>
+						</div>
+						<div class="col-sm-6 box">
+							<div class="work-box" name="www-desc">
+								<p class="box-title">WatWorldWeb</p>
+								<p id="www-desc" class="desc">Social media platform for UWaterloo students <br> // HTML, CSS, JS </p>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
 		<div class="container">
-			<h1 class="title" id="say-hello">Say Hello</h1>
-			<div class="work-box say-hello-box" style="width: 60%; margin-top: 2%">
-				<div class="col-sm-6 box">
-						<a id="resume-link" href="./images/resume.pdf" target="_blank">Resume</a>
-						<br>
-						<a id="email-link" href="mailto:the.stephanie.fok@gmail.com">Email</a>
-				    <!-- <p id="email-link">Email</p> -->
-						<!-- <div id="email-box">the.stephanie.fok@gmail.com</div> -->
-				</div>
-				<div class="col-sm-6 box">
-				    <a id="github-link" href="https://github.com/fokstephanie" target="_blank">GitHub</a>
-						<br>
-				    <a id="linkedin-link" href="https://www.linkedin.com/in/fokstephanie/" target="_blank">LinkedIn</a>
+			<div id="contact">
+				<h1 class="title">Say Hello</h1>
+				<div class="work-box contact-box">
+					<div class="col-sm-6 box">
+							<a id="resume-link" href="./images/resume.pdf" target="_blank">Resume</a>
+							<br>
+							<a id="email-link" href="mailto:the.stephanie.fok@gmail.com">Email</a>
+					    <!-- <p id="email-link">Email</p> -->
+							<!-- <div id="email-box">the.stephanie.fok@gmail.com</div> -->
+					</div>
+					<div class="col-sm-6 box">
+					    <a id="github-link" href="https://github.com/fokstephanie" target="_blank">GitHub</a>
+							<br>
+					    <a id="linkedin-link" href="https://www.linkedin.com/in/fokstephanie/" target="_blank">LinkedIn</a>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -76,6 +81,7 @@ $(document).ready(function(){
 <script src = "https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
 <script src = "https://threejs.org/examples/js/libs/stats.min.js"></script>
 <script src = "particles.js"></script>
+<script src = "index.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
